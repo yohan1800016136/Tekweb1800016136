@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="mhs.php" method="POST">
+
+        Nim : <input type="text" name="nim">
+        <p></p>
+
+        Nama : <input type="text" name="nama">
+        <p></p>
+
+        Jenis kelamin :
+        <input type="radio" name="jk" value="Laki-Laki">Laki-laki
+        <input type="radio" name="jk" value="Perempuan">Perempuan <p></p>
+
+        Alamat :<br>
+        <textarea name="alamat" rows="2" cols="50"></textarea>
+        <p></p>
+
+        Prodi :
+        <select name="prodi">
+            <option value="FISIKA">fisika</option>
+            <option value="MATEMATIKA">matematika</option>
+            <option value="BIOLOGI">biologi</option>
+            <option value="SITEM INFORMASI">sistem informasi</option>
+        </select>
+        <p></p>
+
+        Bahasa pemrograman yang dikuasai :<br>
+        <input type="checkbox" name="bhs" value="Javascript"> javascript <BR>
+        <input type="checkbox" name="bhs" value="C/C++"> C++ <BR>
+        <input type="checkbox" name="bhs" value="visual basic"> visual basic <p>
+
+            <input type="submit" value="kirim">
+    </form>
+</body>
+
+</html>
